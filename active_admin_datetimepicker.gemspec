@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "coffee-rails"
   spec.add_dependency "activeadmin", ">= 1.1", "< 3.a"
-  spec.add_dependency "xdan-datetimepicker-rails", "~> 2.5.4"
+  spec.add_dependency "xdan-datetimepicker-rails", github: 'SellProperly/xdan-datetimepicker-rails'
 end
